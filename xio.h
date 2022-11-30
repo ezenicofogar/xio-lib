@@ -1,3 +1,6 @@
+#ifndef XIO_LIBRARY
+#define XIO_LIBRARY
+
 /*
  *  C console input & output utilities.
  *  https://github.com/ezenicofogar/xio-lib
@@ -41,3 +44,5 @@ void xio_setTxt_wrongNumericInput(const char* text);
 
 // Set the text shown when xio_pause() is called.
 void xio_setTxt_pauseMessage(const char* text);
+
+#endif // ndef XIO_LIBRARY
